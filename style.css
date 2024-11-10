@@ -1,0 +1,58 @@
+.heading {
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card1 {
+  background-color: rgb(0, 255, 42);
+  /* border-color: blue;
+    outline: yellow; */
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;  
+}
+.card2 {
+    background-color: #e5e5e5;
+    /* border-color: blue;
+      outline: yellow; */
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;  
+  }
+.card3 {
+  background-color: rgb(0, 255, 234);
+  /* border-color: blue;
+    outline: yellow; */
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;  
+}
+.card4 {
+  background-color: rgb(255, 251, 0);
+  /* border-color: blue;
+    outline: yellow; */
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;  
+}
+/* ,.card2,.card3,.card4 */
+.odd-or-even{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Readex Pro", sans-serif;
+}
+.odd{
+    color: red;
+}
+.even{
+    color: aquamarine;
+}
